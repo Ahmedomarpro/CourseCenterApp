@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Queen Course Center</string>
+    <string name="title_activity_main_activity_list_details">MainActivityListDetails</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main2_menue">Queen Center</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

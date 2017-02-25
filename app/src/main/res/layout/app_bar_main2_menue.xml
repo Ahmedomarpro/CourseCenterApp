@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.retalayman.coursecenterapp.Main2MenueActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/reg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:paddingLeft="3dp"
+            android:text="Within the framework of the Egyptian Information Society Initiative, which aims to develop basic skills for young graduates of both sexes and prepare them for the labor market, announces the queen center for education solutions for open registration grant customer service and technical support backed and fully funded by the Ministry of Communications and Information Technology. The grant consists of an integrated training program that includes training in English, computer and business skills and language skills clients and the skills of networking and technical support service, 100% free and grant support from the Ministry of Communications and Information Technology and is not paying any expenses or fees for training and for books and certificates where the grant fully supported and implemented through the branches of the Queen training centers internationally accredited in Cairo and Giza"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView6"
+            android:textSize="15dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:textColor="#6c3f3f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:layout_marginTop="66dp"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textColor="@color/bodyTextColor"
+            android:textSize="33dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/banner"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main2_menue" />
+
+</android.support.design.widget.CoordinatorLayout>

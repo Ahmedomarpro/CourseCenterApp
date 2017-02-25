@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "520710389829",
+    "firebase_url": "https://coursecenter-ca005.firebaseio.com",
+    "project_id": "coursecenter-ca005",
+    "storage_bucket": "coursecenter-ca005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520710389829:android:5905bb01e0ddb143",
+        "android_client_info": {
+          "package_name": "com.example.retalayman.coursecenterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520710389829-6kdug1kpd7eb7d42j0s4kj2m9uqvphlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADVCcgCL6daFRDxKD3sGRKHvrtg5P2rWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
